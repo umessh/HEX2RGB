@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HEX2RGB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hexhint">HEX</string>
+    <string name="rgbhint"> RGB</string>
+    <string name="copyTextSuccess">Color copied to Clipboard</string>
+    <string name="inspiredText">Inspired from hex.colorrrs.com</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/myRelLayout" >
+
+    <LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="140sp">
+    
+    	<EditText
+	        android:id="@+id/txtHex"
+	        android:layout_width="180sp"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/hexhint"
+	        android:maxLength="6"
+	        android:textSize="@dimen/textSize"
+	        android:textStyle="bold" />
+
+    	<TextView
+    	    android:id="@+id/txtRgb"
+    	    android:layout_width="180sp"
+    	    android:layout_height="wrap_content"
+    	    android:clickable="true"
+    	    android:hint="@string/rgbhint"
+    	    android:maxLength="12"
+    	    android:onClick="copyClip"
+    	    android:textSize="@dimen/textSize"
+    	    android:textStyle="bold" />
+
+     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvInsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/inspiredText"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/inspireTextSize" />
+
+</RelativeLayout>
